@@ -18,7 +18,7 @@ services:
     depends_on:
       - db
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:3306/Docker_Render
+      SPRING_DATASOURCE_URL: jdbc:mariadb://db:3306/Docker_Render
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: toor
     ports:
